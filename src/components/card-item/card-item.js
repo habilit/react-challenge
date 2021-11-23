@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import { Button, Form } from 'react-bootstrap';
+import fetch from 'isomorphic-fetch';
 import { Card, 
   CardImage, 
   CardImageWrapper, 
@@ -8,8 +9,8 @@ import { Card,
   CardContentWrapper, 
   CloseButton, 
   DonateName,
-  DonateOption} from '../components/styles/card-style';
-import { httpHeader } from '../helper/helpers';
+  DonateOption} from '../../components/styles/card-style';
+import { httpHeader } from '../../helper/helpers';
 
 class CardItem extends Component {
 
