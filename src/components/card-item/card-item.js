@@ -8,8 +8,8 @@ import { Card,
   CardContentWrapper, 
   CloseButton, 
   DonateName,
-  DonateOption} from '../components/styles/card-style';
-import { httpHeader } from '../helper/helpers';
+  DonateOption} from '../../components/styles/card-style';
+import { httpHeader } from '../../helper/helpers';
 
 class CardItem extends Component {
 
