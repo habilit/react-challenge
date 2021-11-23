@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import CardItem from '../../components/card-item/card-item';
+import fetch from 'isomorphic-fetch';
 import { CardContainer } from '../../components/styles/card-style';
 
 class CardList extends Component {

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import { Button, Form } from 'react-bootstrap';
+import fetch from 'isomorphic-fetch';
 import { Card, 
   CardImage, 
   CardImageWrapper, 
